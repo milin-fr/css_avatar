@@ -1,0 +1,87 @@
+.avatar--container {
+  margin: auto;
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.face {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.eye-brow--container {
+  position: absolute;
+  top: 10px;
+  left: auto;
+  right: auto;
+  height: 15px;
+  width: 80px;
+  background-color: burlywood;
+}
+
+.eye-brow--left {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  right: auto;
+  height: 6px;
+  width: 30px;
+  background-color: black;
+}
+
+.eye-brow--right {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  height: 6px;
+  width: 30px;
+  background-color: black;
+}
+
+.eye--container {
+  position: absolute;
+  top: 30px;
+  left: auto;
+  right: auto;
+  height: 40px;
+  width: 80px;
+  background-color: burlywood;
+}
+
+.eye--left {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+.eye--right {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+.eye-pupil--left {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 5px;
+  width: 5px;
+  background-color: black;
+}
+
+.eye-pupil--right {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 5px;
+  width: 5px;
+  background-color: black;
+}
